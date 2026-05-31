@@ -29,6 +29,7 @@ export {
 export type {
 	OAuth2Tokens,
 	OAuth2UserInfo,
+	OAuthIdTokenConfig,
 	OAuthProvider,
 	ProviderOptions,
 } from "./oauth-provider";
@@ -57,3 +58,7 @@ export {
 	verifyAccessToken,
 	verifyJwsAccessToken,
 } from "./verify";
+export {
+	supportsIdTokenSignIn,
+	verifyProviderIdToken,
+} from "./verify-id-token";
